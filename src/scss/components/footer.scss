@@ -1,0 +1,26 @@
+.footer {
+   background: #8F79D4;
+   padding-top: 45px;
+   padding-bottom: 40px;
+   color: #fff;
+}
+.footer__container{
+   display: flex;
+   justify-content: space-between;
+   color:white;
+}
+.payment{
+   width: 40%;
+}
+.payment img:not(:last-child) {
+   margin-right: 17px;
+}
+.footer-text{
+   color: #E7D9FF;
+   font-size: 14px;
+   line-height: 20px;
+   margin-right: 10px;
+}
+.footer-social a:not(:last-child){
+   margin-right: 17px;
+}

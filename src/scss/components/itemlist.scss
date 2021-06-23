@@ -1,0 +1,106 @@
+@import '../variables';
+
+.goods-card-btn {
+  position: relative;
+  display: block;
+  width: 100px;
+  margin: auto auto 0;
+}
+.alert{
+  position: absolute;
+  bottom:3px;
+  margin-left: auto;
+  margin-right: auto;
+  color:darkslategray;
+}
+.goods-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding: 30px 35px 35px;
+  min-height: 390px;
+  width: 33%;
+}
+
+.goods-card-btn .button-price {
+  margin: 0;
+}
+
+.card-title {
+  color: #262D33;
+  font-size: 25px;
+  line-height: 30px;
+  font-family: 'Roboto Slab',
+    serif;
+  max-width: 222px;
+  margin: 0;
+}
+
+.card-title.large {
+  max-width: 420px;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  max-width: 176px;
+  color: #4B5157;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+
+
+
+.card-price {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 900;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.goods-image {
+  width: 190px;
+  height: 190px;
+  object-fit: contain;
+}
+
+.label {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  background-color: #3DC47E;
+  border-radius: 3px;
+  padding: 5px 12px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+@media (max-width: 800px) {
+  .burger{
+    display: block;
+  }
+
+  .goods-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    padding: 20px 25px 25px;
+    min-height: 390px;
+    width: 49%;
+  }
+ }
