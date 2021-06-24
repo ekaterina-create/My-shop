@@ -1,5 +1,6 @@
 ⌛ My-shop
-Магазин одежды на реакт  Deploy:   https://vercel.com/ekaterina-create/shop/EVZvso99KPzzRyW58kXnVW2Xnh1J  
+Магазин одежды на реакт  
+Deploy:  https://shop-2uxfv14hq-ekaterina-create.vercel.app/
 Реализованная функциональность:
 Отображение товаров по категориям,
 Сохранение в редакс,
