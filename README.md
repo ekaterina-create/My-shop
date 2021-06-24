@@ -10,5 +10,6 @@ Deploy:  https://shop-2uxfv14hq-ekaterina-create.vercel.app/
 •Увеличение количества товаров в корзине, уменьшение и удаление
 •Отправка заказа POST запрос с данными из редакса
 •Слайдер, скролл наверх
+(React, Redux, React Router)
 
 
