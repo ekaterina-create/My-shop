@@ -1,6 +1,8 @@
 ⌛ My-shop
+
 Магазин одежды на реакт  
 Deploy:  https://shop-ten-eta.vercel.app/
+(React, Redux, React Router)
 •Функциональность:
 •Отображение товаров по категориям
 •Сохранение в редакс
@@ -11,6 +13,6 @@ Deploy:  https://shop-ten-eta.vercel.app/
 •Увеличение количества товаров в корзине, уменьшение и удаление
 •Отправка заказа POST запрос с данными из редакса
 •Слайдер, скролл наверх
-(React, Redux, React Router)
+
 
 
